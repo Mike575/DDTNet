@@ -57,6 +57,7 @@ Note:
 3. mask*.png, edgemask*.png and Dis*.png are mask map, contour map and distance map corresponding to input image, respectively.
 ## Training
 The following command line will train ddtnet_R_101_FPN_1x on 1 GPUs with Synchronous Stochastic Gradient Descent (SGD):
+
     apt install libgl1-mesa-glx
     cd tools
     python -m torch.distributed.launch \
